@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url('iconfont.ttf?t=1620975137210') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.iconNew:before {
+  content: "\e71e";
+}
+
+.iconCommunity:before {
+  content: "\e637";
+}
+
+.iconTops:before {
+  content: "\e64b";
+}
+
+.iconPerson:before {
+  content: "\e6bb";
+}
+
+.iconMain:before {
+  content: "\e611";
+}
+

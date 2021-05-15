@@ -1,0 +1,86 @@
+.outer{
+    width: 30%;
+    min-width: 160rem;
+    position: relative;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #f1f1f1;
+}
+
+.pos{
+    display: inline-block;
+    width: 160rem;
+    position: absolute;
+    right: 0;
+    top: 20rem;
+}
+
+.Logo{
+    font-size: 36px;
+    font-weight: 500;
+    color: #0073B4;
+    margin-bottom: 5rem;
+}
+
+.logoText{
+    color: red;
+}
+
+.navList{
+    position: relative;
+}
+
+.navNode{
+    font-size: 36px;
+    text-decoration: none;
+    padding: 5rem 15rem;
+    color: black;
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+
+.navText{
+    padding: 0 20px;
+    font-size: 28px;
+}
+
+.choosed{
+    position: absolute;
+    background-color: white;
+    height: 50px;
+    width: 160rem;
+    border-radius: 25px;
+    transition: top 0.3s ease;
+}
+
+.fir{
+    top:3%;
+}
+
+.sec{
+    top:28%;
+}
+
+.thir{
+    top:53%;
+}
+
+.four{
+    top:78%;
+}
+
+.navNode:nth-child(1):hover ~ .choosed{
+    top: 3%;
+}
+
+.navNode:nth-child(2):hover ~ .choosed{
+    top: 28%;
+}
+.navNode:nth-child(3):hover ~ .choosed{
+    top: 53%;
+}
+.navNode:nth-child(4):hover ~ .choosed{
+    top: 78%;
+}
